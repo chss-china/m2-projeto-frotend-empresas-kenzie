@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./user.css" />
+    <link rel="stylesheet" href="../globalStyles.css" />
+    <title>Kenzie Company UserPage</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img class="logo" src="../assets/Group 42.png" />
+
+        <a class="botao_sair" href="../Login/login.html">Logout</a>
+      </div>
+    </header>
+
+    <div class="info_usuario"></div>
+
+    <div class="div_sem_trabalho hidden">
+      <p>Você ainda não foi contratado</p>
+    </div>
+
+    <div class="div_compania_usuario"></div>
+    <div class="modaldiv hidden">
+      <div class="modal">
+        <div>
+          <h3>Editar Perfil</h3>
+
+          <button class="botao_fechar_modal">X</button>
+        </div>
+        <input id="username" placeholder="Seu nome" />
+        <input id="email" placeholder="Seu e-mail" />
+        <input id="password" placeholder="Sua senha" />
+
+        <button class="botao_modal_editar">Editar perfil</button>
+      </div>
+    </div>
+    <script type="module" src="./user.js"></script>
+  </body>
+</html>
