@@ -1,3 +1,4 @@
+Para rodar esse projeto tem que baixar a api local do readme, depois de baixar acessar o vercel
 Bom Projeto!! 
 Nesta atividade, você irá desenvolver uma aplicação para auxiliar proprietários de empresas e seus colaboradores a encontrar informações relevantes de acordo com seus níveis de acesso. Você deve criar uma interface web para consumir a API e exibir as informações na tela, prestando atenção na estética, mas priorizando a funcionalidade e fluidez do processo. Aplique todos os conhecimentos e boas práticas adquiridas no Módulo 2.
 
